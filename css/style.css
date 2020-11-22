@@ -1,4 +1,4 @@
-/* ================================================== */
+﻿/* ================================================== */
 /* created by designesia
 
 * body
@@ -246,6 +246,11 @@ overflow:visible;
 	header.smaller:not(.header-bottom):not(.side-header) .header-extra {
 	height:70px;
 	}
+
+		header.smaller:not(.header-bottom):not(.side-header) div#logo img {
+			-webkit-transform: scale(0.8) rotate(0.01deg);
+			transform: scale(0.8) rotate(0.01deg);
+		}
 	
 	.logo-smaller div#logo {
 	width: 150px;
