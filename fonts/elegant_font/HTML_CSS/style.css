@@ -990,7 +990,7 @@ you can use the generic selector below, but it's slower:
 	content: "\e107";
 }
 .icon_id-2:before {
-	content: "\e108";
+	content: "\e023";
 }
 .icon_puzzle:before {
 	content: "\e102";
@@ -1014,7 +1014,7 @@ you can use the generic selector below, but it's slower:
 	content: "\e104";
 }
 .icon_easel:before {
-	content: "\e0e9";
+	content: "\e030";
 }
 .icon_flowchart:before {
 	content: "\e109";
