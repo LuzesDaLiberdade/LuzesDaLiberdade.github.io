@@ -5756,6 +5756,9 @@ p{
 	margin-bottom:20px;
 }
 
+.mid-column{
+	width: 60%;
+}
 
 .bg-grey{
 	background:#f5f5f5;
