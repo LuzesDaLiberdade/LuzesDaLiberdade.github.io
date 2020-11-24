@@ -1058,6 +1058,32 @@ jQuery(document).ready(function () {
         });
 
 
+        jQuery('.div-select select').change(function () {
+            jQuery(this).parent().parent().find('.v-border').fadeTo(150, 0);
+            jQuery(this).parent().parent().find('.de_tab_content > div').hide();
+
+            var indexer = jQuery(this).prop('selectedIndex'); //gets the current index of (this) which is #nav li
+            
+            jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').fadeIn(); //uses whatever index the link has to open the corresponding box 
+            jQuery(this).find('.v-border').fadeTo(150, 1);
+        });
+
+        // set today
+        const date1 = new Date('12/02/2020');
+        const date2 = new Date();
+        const diffTime = (date2 - date1);
+        var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+
+        diffDays = diffDays - 1;
+        if (diffDays < 0)
+            diffDays = 0;
+        else if (diffDays > 35)
+            diffDays = 35;
+
+        jQuery(".div-select select option").eq(diffDays).attr('selected', 'selected');
+        jQuery('.div-select select').change();
+
+
         // request quote function
 
         var rq_step = 1;
