@@ -8531,5 +8531,13 @@ i.btn-action-hide {
         .grid-item .pf_title {
             display: none;
         }
+
+        #section-sponsors img {
+            margin: 30px 0px 20px 0px;
+            max-width: 99%;
+        }
+        .mid-column {
+            width: 99%;
+        }
     }
 }
