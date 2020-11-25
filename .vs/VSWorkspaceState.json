@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\fonts",
     "\\fonts\\elegant_font",
     "\\fonts\\elegant_font\\HTML_CSS",
-    "\\images-event\\bg"
+    "\\js"
   ],
-  "SelectedNode": "\\fonts\\elegant_font\\HTML_CSS\\style.css",
+  "SelectedNode": "\\js\\jpreLoader.js",
   "PreviewInSolutionExplorer": false
 }
