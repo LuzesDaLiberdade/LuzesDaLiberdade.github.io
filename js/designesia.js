@@ -648,8 +648,8 @@ jQuery(document).ready(function () {
 			animateIn: 'fadeIn',
 			loop:true,
 			dots:true,
-			mouseDrag:false,
-			touchDrag:false,
+			mouseDrag:true,
+        touchDrag: true,
 			margin:0,
          });
 
