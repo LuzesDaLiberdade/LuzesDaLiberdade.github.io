@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\images-event",
-    "\\js"
+    "\\images-event\\team",
+    "\\images-event\\team\\vj"
   ],
-  "SelectedNode": "\\js\\jquery.ui.map.js",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
