@@ -7622,8 +7622,8 @@ i.btn-action-hide {
     height: auto;
 }
 
-#patrocinio img {
-    margin: 30px 30px 40px 30px;
+#realizacao img {
+    margin: 20px 20px 20px 20px;
 }
 
 .div-select {
@@ -8546,7 +8546,7 @@ i.btn-action-hide {
             display: none;
         }
 
-        #patrocinio img {
+        #realizacao img {
             margin: 30px 0px 20px 0px;
             max-width: 99%;
         }
@@ -8554,6 +8554,9 @@ i.btn-action-hide {
             width: 99%;
         }
 
-
+        .wm.dark.wm-border {
+            font-size: 54px;
+            top: -20px;
+        }
     }
 }
