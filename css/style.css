@@ -5512,6 +5512,12 @@ a.img-icon-zoom {
     float: left;
 }
 
+.pf_full_width_6_cols .item {
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+
 .pf_full_width.pf_3_cols .item {
     width: 33.3%;
 }
@@ -8522,6 +8528,11 @@ i.btn-action-hide {
             width: 100% !important;
         }
 
+        .pf_full_width_6_cols .item {
+            float: left;
+            width: 100% !important;
+        }
+
         /*.item{
 	font-size:32px;
 	line-height:32px;
@@ -8542,5 +8553,7 @@ i.btn-action-hide {
         .mid-column {
             width: 99%;
         }
+
+
     }
 }
