@@ -8523,6 +8523,7 @@ i.btn-action-hide {
 	design for 320px
 	/* -------------------------------------------------- */
     @media only screen and (max-width: 480px) {
+
         .pf_full_width .item {
             float: left;
             width: 100% !important;
