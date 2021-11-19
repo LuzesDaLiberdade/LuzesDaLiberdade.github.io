@@ -1,4 +1,44 @@
 :root {
-    --primary-color-1: #ff8db4;
+    --primary-color-1: #00E5FF;
     --secondary-color: #56509a;
+}
+
+#square {
+    position: relative;
+    width: 700px;
+    height: 700px;
+
+    max-width:99%;
+
+
+    background-color: transparent;
+    border: 3px solid aqua;
+    -webkit-box-shadow: 0 0 5px aqua;
+    -moz-box-shadow: 0 0 5px aqua;
+    box-shadow: 0 0 5px aqua, inset 0 0 5px aqua;
+    animation: pulsate 5s ease-out infinite;
+    margin: 0 auto;
+}
+
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        box-shadow: 0 0 5px aqua, inset 0 0 5px aqua;
+    }
+
+    50% {
+        box-shadow: 0 0 20px aqua, inset 0 0 20px aqua;
+    }
+
+    100% {
+        box-shadow: 0 0 5px aqua, inset 0 0 5px aqua;
+    }
 }
