@@ -6909,19 +6909,19 @@ b {
 
 .di-small {
     position: absolute;
-    width: 50%;
+/*    width: 50%;*/
     height: 50%;
     top: 75%;
     left: -35%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .di-small-2 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     right: -10%;
-    bottom: -10%;
+    bottom: -40%;
     z-index: 1;
 }
 
@@ -7624,6 +7624,7 @@ i.btn-action-hide {
 
 #realizacao img {
     margin: 20px 20px 20px 20px;
+    width: 200px;
 }
 
 .div-select {

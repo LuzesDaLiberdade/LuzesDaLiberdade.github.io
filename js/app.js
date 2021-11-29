@@ -1,5 +1,5 @@
 jQuery(window).load(function () {
-    /*
+   
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -110,7 +110,7 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-*/
+
 requestAnimationFrame();
 
 });
